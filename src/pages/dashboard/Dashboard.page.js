@@ -9,7 +9,7 @@ export const Dashboard = () => {
     <Container>
       <Row>
         <Col>
-        <PageBreadcrumb/>
+        <PageBreadcrumb page='Dashboard'/>
         </Col>
       </Row>
       <Row>
