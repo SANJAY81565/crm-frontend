@@ -2,12 +2,14 @@ import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { TicketTable } from "../../components/ticketTable/TicketTable.comp";
 import  tickets  from "../../assets/data/dummyTickets.json";
+import PageBreadcrumb from "../../components/breadCrumb/BreadCrumb.comp";
 
 export const Dashboard = () => {
   return (
     <Container>
       <Row>
         <Col>
+        <PageBreadcrumb/>
         </Col>
       </Row>
       <Row>
