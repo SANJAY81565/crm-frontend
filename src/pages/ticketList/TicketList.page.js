@@ -11,7 +11,6 @@ export const TicketList = () => {
 
   const handleOnChange =(e) => {
       let {value} = e.target
-      console.log(value);
       setStr(value)
       searchTicket(value)
   }
@@ -21,7 +20,6 @@ export const TicketList = () => {
     let displayTickets = tickets.filter((row) => row.subject.toLowerCase().includes(sttr.toLowerCase())
     )
     setDispTickets(displayTickets)
-    console.log(displayTickets);
   }
 
 
